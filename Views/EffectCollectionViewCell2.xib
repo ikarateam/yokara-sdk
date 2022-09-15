@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="EffectCollectionViewCell2">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="song_Hye_Kyo.png" translatesAutoresizingMaskIntoConstraints="NO" id="W7I-Hh-r2h">
+                        <rect key="frame" x="12.5" y="5" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="W7I-Hh-r2h" secondAttribute="height" multiplier="1:1" id="op2-hT-vxh"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="canedit.png" translatesAutoresizingMaskIntoConstraints="NO" id="SPB-cX-D1w">
+                        <rect key="frame" x="12.5" y="5" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="7BQ-Io-yic"/>
+                            <constraint firstAttribute="height" constant="55" id="zny-by-chY"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_vip.png" translatesAutoresizingMaskIntoConstraints="NO" id="HDB-jr-Ogy">
+                        <rect key="frame" x="47.5" y="40" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Vyd-AY-xyq"/>
+                            <constraint firstAttribute="height" constant="20" id="qp3-dm-qZH"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="anh" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIk-T9-bZk">
+                        <rect key="frame" x="-7" y="65" width="94" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="PUf-xu-qdr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaO-Nc-nsZ">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <state key="normal">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ZaO-Nc-nsZ" secondAttribute="bottom" id="32r-tF-Sch"/>
+                <constraint firstItem="uIk-T9-bZk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="-7" id="Adb-8M-b05"/>
+                <constraint firstItem="SPB-cX-D1w" firstAttribute="centerX" secondItem="W7I-Hh-r2h" secondAttribute="centerX" id="JWe-C2-Xaq"/>
+                <constraint firstAttribute="bottom" secondItem="uIk-T9-bZk" secondAttribute="bottom" constant="5" id="KVh-H0-dQZ"/>
+                <constraint firstItem="HDB-jr-Ogy" firstAttribute="trailing" secondItem="W7I-Hh-r2h" secondAttribute="trailing" id="PTn-xE-QOu"/>
+                <constraint firstItem="W7I-Hh-r2h" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Xo0-Bf-fhu"/>
+                <constraint firstAttribute="trailing" secondItem="uIk-T9-bZk" secondAttribute="trailing" constant="-7" id="fP8-iy-qlU"/>
+                <constraint firstItem="W7I-Hh-r2h" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="gCk-xX-Tzz"/>
+                <constraint firstItem="uIk-T9-bZk" firstAttribute="top" secondItem="W7I-Hh-r2h" secondAttribute="bottom" constant="5" id="l25-iz-1HI"/>
+                <constraint firstItem="SPB-cX-D1w" firstAttribute="centerY" secondItem="W7I-Hh-r2h" secondAttribute="centerY" id="ouM-Bi-O6E"/>
+                <constraint firstItem="ZaO-Nc-nsZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tZ7-Bx-inU"/>
+                <constraint firstItem="HDB-jr-Ogy" firstAttribute="bottom" secondItem="W7I-Hh-r2h" secondAttribute="bottom" id="vCm-pN-Jn5"/>
+                <constraint firstAttribute="trailing" secondItem="ZaO-Nc-nsZ" secondAttribute="trailing" id="xOy-jT-FQf"/>
+                <constraint firstItem="ZaO-Nc-nsZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zaE-Cr-gns"/>
+            </constraints>
+            <size key="customSize" width="132" height="75"/>
+            <connections>
+                <outlet property="actionButton" destination="ZaO-Nc-nsZ" id="Xmh-UW-BLf"/>
+                <outlet property="icnVIP" destination="HDB-jr-Ogy" id="3Uf-Dk-DyU"/>
+                <outlet property="imageView" destination="W7I-Hh-r2h" id="kmV-AZ-FEv"/>
+                <outlet property="isChosse" destination="SPB-cX-D1w" id="J7g-Ld-eiU"/>
+                <outlet property="titleLabel" destination="uIk-T9-bZk" id="GVg-6N-OyU"/>
+            </connections>
+            <point key="canvasLocation" x="389.60000000000002" y="240.17991004497753"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="canedit.png" width="128" height="128"/>
+        <image name="icn_vip.png" width="36" height="36"/>
+        <image name="song_Hye_Kyo.png" width="496" height="559"/>
+    </resources>
+</document>

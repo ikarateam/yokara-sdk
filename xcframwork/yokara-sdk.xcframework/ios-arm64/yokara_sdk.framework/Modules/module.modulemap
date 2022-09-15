@@ -1,0 +1,6 @@
+framework module yokara_sdk {
+  umbrella header "yokara_sdk.h"
+
+  export *
+  module * { export * }
+}
